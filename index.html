@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="styles.css">
     <title>Richi-LandingPage</title>
 </head>
 <body>
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrollTop" id="scrollTop">
-            <i class="bx bx-up-arrow-alt scrollTop_icon"></i>
-          </a>
+    <!--========== SCROLL TOP ==========-->
+     <a href="#" class="scrollTop" id="scrollTop">
+        <i class="bx bx-up-arrow-alt scrollTop_icon"></i>
+      </a>
       
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-          <a href="#" class="nav_logo">Top</a>
+          <a href="#" class="nav_logo">TopLogo</a>
   
           <div class="nav_menu" id="nav-menu">
             <ul class="nav_list">
@@ -25,13 +30,13 @@
                 <a href="#home" class="nav_link active-link">Home</a>
               </li>
               <li class="nav_item">
-                <a href="#Seccion1" class="nav_link">Seccion 1</a>
+                <a href="#share" class="nav_link">Seccion 1</a>
               </li>
               <li class="nav_item">
-                <a href="#Seccion2" class="nav_link">Seccion 2</a>
+                <a href="#carousel" class="nav_link">Carousel</a>
               </li>
               <li class="nav_item">
-                <a href="#Seccion3" class="nav_link">Seccion 3</a>
+                <a href="#seccion3" class="nav_link">Seccion 3</a>
               </li>
   
               <li>
@@ -51,26 +56,25 @@
       <section class="home" id="home">
         <div class="home_container bd-container bd-grid">
           <div class="home_img">
-            <img src="" alt="" />
+            <img src="/img/home.png" alt="" />
           </div>
 
           <div class="home_data">
-            <h1 class="home_title">Mensaje Pincipal<b> Home</b>🏠</h1>
+            <h1 class="home_title">Bienvenida<b> Home</b>🏠</h1>
             <p class="home_description">
              Bienvenida para todos los visitantes de esta pagina 👋
             </p>
-            <a href="" class="button">Boton1</a>
+            <a href="" class="button">Boton Home</a>
           </div>
         </div>
       </section>
-
       <!--========== Section 1 ==========-->
       <section class="share section bd-container" id="share">
         <div class="share_container bd-grid">
           <div class="share_data">
             <h2 class="section-title-center">
               <b>🤗</b><br />
-              Seccion 2
+              Seccion 1
             </h2>
             <p class="share_description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae, soluta eos dolorum atque commodi debitis vitae dicta! Deleniti, perferendis repudiandae autem voluptas nobis qui quas aliquam quis aperiam ad!
@@ -83,8 +87,16 @@
           </div>
         </div>
       </section>
-
-
+    <!--========== Carousel ==========-->
+    <section class="share section bd-container" id="carousel">
+    <div id="mySlideshow">
+        <img class="gallery-item" src="/img/1.jpg" alt="pic1">
+        <img class="gallery-item" src="/img/2.jpg" alt="pic2">
+        <img class="gallery-item" src="/img/3.jpg" alt="pic3">
+        <img class="gallery-item" src="/img/4.jpg" alt="pic4">
+        <img class="gallery-item" src="/img/5.jpg" alt="pic5">
+      </div>
+      </section>
 
 
     <!--========== FOOTER ==========-->
@@ -96,7 +108,7 @@
             </h3>
             <p class="footer_description">
               Final de pagina<br />
-              <b>Gracias  por visitarnos😍🤗</b>
+              <b>Gracias  por visitarnos🤗</b>
             </p>
           </div>
   
@@ -123,18 +135,16 @@
           <div class="footer_content">
             <h3 class="footer_title">Social</h3>
             <a
-              href="https://www.linkedin.com/in/thiagosilvaloopes/"
+              href="https://www.linkedin.com/in/ricardo-correa-figueroa/"
               class="footer_social"
               ><i class="bx bxl-linkedin-square"></i
             ></a>
-            <a href="https://twitter.com/Thiaagows" class="footer_social"
-              ><i class="bx bxl-twitter"></i
-            ></a>
+            <a href="mailto: richi.correa.f@gmail.com" class="footer_social"
+              ><i class='bx bx-mail-send' ></i></a>
             <a
-              href="https://www.instagram.com/thiagosilvaloopes/"
+              href="https://github.com/RichiCorrea"
               class="footer_social"
-              ><i class="bx bxl-instagram"></i
-            ></a>
+              ><i class='bx bxl-github'></i></a>
           </div>
         </div>
   
@@ -147,8 +157,8 @@
         </p>
       </footer>
   
-      <!--========== SCROLL REVEAL ==========-->
-      <script src="https://unpkg.com/scrollreveal"></script>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
   
     <!--========== MAIN JS ==========-->
     <script src="main.js"></script>
