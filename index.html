@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="">
     <!--========== BOX ICONS ==========-->
     <link
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
@@ -17,12 +16,12 @@
     <!--========== SCROLL TOP ==========-->
      <a href="#" class="scrollTop" id="scrollTop">
         <i class="bx bx-up-arrow-alt scrollTop_icon"></i>
-      </a>
+          </a>
       
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-          <a href="#" class="nav_logo">TopLogo</a>
+          <a href="#" class="nav_logo">Top</a>
   
           <div class="nav_menu" id="nav-menu">
             <ul class="nav_list">
@@ -30,13 +29,13 @@
                 <a href="#home" class="nav_link active-link">Home</a>
               </li>
               <li class="nav_item">
-                <a href="#share" class="nav_link">Seccion 1</a>
+                <a href="#share" class="nav_link">Agradecimiento</a>
               </li>
               <li class="nav_item">
                 <a href="#carousel" class="nav_link">Carousel</a>
               </li>
               <li class="nav_item">
-                <a href="#seccion3" class="nav_link">Seccion 3</a>
+                <a href="#decorations" class="nav_link">Más de mi</a>
               </li>
   
               <li>
@@ -60,11 +59,11 @@
           </div>
 
           <div class="home_data">
-            <h1 class="home_title">Bienvenida<b> Home</b>🏠</h1>
+            <h1 class="home_title">Este es mi 🏠<br><b>Landing Page</b></h1>
             <p class="home_description">
-             Bienvenida para todos los visitantes de esta pagina 👋
+             Bienvenidos a esta pagina,  la cual fue hecha para los amigos de Ecomsur. 👋
             </p>
-            <a href="" class="button">Boton Home</a>
+            <a href="#decorations" class="button">¿Quieres saber más de mi?</a>
           </div>
         </div>
       </section>
@@ -73,34 +72,71 @@
         <div class="share_container bd-grid">
           <div class="share_data">
             <h2 class="section-title-center">
-              <b>🤗</b><br />
-              Seccion 1
+              Soy Ricardo Correa
             </h2>
             <p class="share_description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae, soluta eos dolorum atque commodi debitis vitae dicta! Deleniti, perferendis repudiandae autem voluptas nobis qui quas aliquam quis aperiam ad!
+              Y estoy muy agradecido por la oportunidad de poder mostrar mis habilidades en este proceso de busqueda laboral.<b> 🤗</b>
             </p>
-            <a href="" class="button">Boton2</a>
+            <a href="#footer" class="button">Contactame</a>
           </div>
 
           <div class="share_img">
-            <img src="" alt="" />
+            <img src="/img/Me.png" alt="" />
           </div>
         </div>
       </section>
     <!--========== Carousel ==========-->
     <section class="share section bd-container" id="carousel">
+      <div class="home_data">
+        <h2 class="section-title"><b>Me gustaría</b> ver alguna vez una aurora boreal.</h2>
+      </div>
     <div id="mySlideshow">
-        <img class="gallery-item" src="/img/1.jpg" alt="pic1">
-        <img class="gallery-item" src="/img/2.jpg" alt="pic2">
-        <img class="gallery-item" src="/img/3.jpg" alt="pic3">
-        <img class="gallery-item" src="/img/4.jpg" alt="pic4">
-        <img class="gallery-item" src="/img/5.jpg" alt="pic5">
+        <img class="imgcarousel gallery-item" src="/img/1.png" alt="pic1">
+        <img class="imgcarousel gallery-item" src="/img/2.png" alt="pic2">
+        <img class="imgcarousel gallery-item" src="/img/3.png" alt="pic3">
+        <img class="imgcarousel gallery-item" src="/img/4.png" alt="pic4">
+        <img class="imgcarousel gallery-item" src="/img/5.png" alt="pic5">
       </div>
       </section>
 
+      <!--========== DECORATION ==========-->
+      <section class="share section bd-container" id="decorations">
+        <h2 class="section-title">
+          Me defino como una persona ...
+        </h2>
+
+        <div class="decoration_container bd-grid">
+          <div class="decoration_cards">
+            <img
+              src="/img/21.png"
+              alt=""
+              class="decoration_img"
+            />
+            <h3 class="decoration-title">Creativa</h3>
+          </div>
+
+          <div class="decoration_cards">
+            <img
+              src="/img/22.png"
+              alt=""
+              class="decoration_img"
+            />
+            <h3 class="decoration-title">Responsable</h3>
+          </div>
+
+          <div class="decoration_cards">
+            <img
+              src="/img/23.png"
+              alt=""
+              class="decoration_img"
+            />
+            <h3 class="decoration-title">Alegre</h3>
+          </div>
+        </div>
+      </section>
 
     <!--========== FOOTER ==========-->
-    <footer class="footer section">
+    <footer class="footer section" id="footer">
         <div class="footer_container bd-container bd-grid">
           <div class="footer_content">
             <h3 class="footer_title">
@@ -133,7 +169,7 @@
           </div>
   
           <div class="footer_content">
-            <h3 class="footer_title">Social</h3>
+            <h3 class="footer_description"><b> Contacto</b></h3>
             <a
               href="https://www.linkedin.com/in/ricardo-correa-figueroa/"
               class="footer_social"

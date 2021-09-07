@@ -12,8 +12,8 @@
   --title-color: #161212;
   --text-color: #5b5757;
   --text-color-light: #8f8a8a;
-  --body-color: #ffffff;
-  background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 15%, #ffefef 50%, #ffffff 85%, #ffffff 100%);
+  --body-color: #f7f7f7;
+    background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 15%, #8a0e0e 50%, #ffffff 85%, #ffffff 100%);
   --nav-menu-color: #f7f7f7;
   --container-color: #fff;
   --box-shadow-color: rgba(0, 0, 0, 0.1);
@@ -140,7 +140,8 @@ body.dark-theme {
     font-size: var(--h2-font-size);
     color: var(--title-color);
     text-align: center;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-2);
+    color: var(--title-color);
   }
   
   .section-title-center b {
@@ -331,14 +332,14 @@ body.dark-theme {
   }
   /*========== Carousel ==========*/
     #mySlideshow {
-        margin: 50px auto 0;
-        max-width: 800px;
+        margin: 15px auto 0;
+        max-width: 900px;
         height: 540px;
         position: relative;
         overflow: hidden;
       }
       
-      img {
+      .imgcarousel {
         transform: translate(1623px);
         position: absolute;
         width: 100%;
@@ -366,7 +367,27 @@ body.dark-theme {
     width: 280px;
     justify-self: center;
   }
-  
+  /*========== DECORATION ==========*/
+.decoration_container {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.decoration_cards {
+  text-align: center;
+  padding: 1rem 1rem 2rem;
+  background-color: var(--container-color);
+  box-shadow: 0 2px 6px var(--box-shadow-card-container-color);
+  border-radius: 1rem;
+}
+
+.decoration_cards:hover {
+  box-shadow: 0 3px 12px var(--box-shadow-card-container-hover);
+}
+
+.decoration_title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
   /*========== FOOTER ==========*/
 .footer_container {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -447,6 +468,10 @@ body.dark-theme {
   .share_data,
   .send_description {
     text-align: initial;
+  }
+
+  .section-title b {
+    color: var(--first-color);
   }
 
   .home_img,
