@@ -1,7 +1,7 @@
 # Landingpage-Responsive
 <!---->
 <div align="center">
-<img src="./ReadMeFiles/app.jpg" align="center">
+<img src="../img/Me.png" align="center">
 </div>
 
 # 🏠🤗 Landing Page - Responsive & Dark/light Theme
